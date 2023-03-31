@@ -5,8 +5,8 @@ import { Cloud } from "laf-client-sdk";
 import { marked } from "marked";
 
 const cloud = new Cloud({
-  baseUrl: "https://gmmfb5.laf.dev",
-  getAccessToken: '',
+  baseUrl: "https://<你的lafid>.laf.dev",
+  getAccessToken: "",
   timeout: 60000,
 });
 
